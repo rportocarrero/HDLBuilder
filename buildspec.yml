@@ -1,7 +1,12 @@
+version: 2.0
+
 phases:
   install:
-    - echo Install
+    commands:
+      - echo Install
   build:
-    - echo Build started on 'date'
+    commands:
+      - echo Build started on 'date'
   post_build:
-    - echo build completed on 'date'
+    commands:
+      - echo build completed on 'date'
