@@ -7,6 +7,9 @@ phases:
   build:
     commands:
       - echo Build started on 'date'
+      - ghdl -a hello.vhdl
+      - ghdl -e hello_world
+      - ghdl -r hello_world > output.txt
   post_build:
     commands:
       - echo build completed on 'date'
