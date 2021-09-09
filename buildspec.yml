@@ -13,3 +13,6 @@ phases:
   post_build:
     commands:
       - echo build completed on 'date'
+artifacts:
+  files:
+    - output.txt
