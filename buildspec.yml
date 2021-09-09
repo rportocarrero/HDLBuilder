@@ -1,0 +1,7 @@
+phases:
+  install:
+    - echo Install
+  build:
+    - echo Build started on 'date'
+  post_build:
+    - echo build completed on 'date'
